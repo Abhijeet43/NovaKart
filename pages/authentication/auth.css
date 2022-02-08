@@ -73,38 +73,37 @@ form {
   color: var(--danger-color);
 }
 
-.form-group input[type="checkbox"] {
-  position: absolute;
-  padding-left: 2em;
-  width: auto;
-  left: -0.3em;
-  top: -0.1em;
-  z-index: 1;
+.input-group-newsletter,
+.input-group {
+  position: relative;
+  display: grid;
+  grid-template-columns: 10% 90%;
 }
 
-.input-group input[type="checkbox"] {
-  position: relative;
+input[type="checkbox"] {
+  z-index: 1;
+  padding: 1rem;
+  margin: 0 3rem;
 }
 
 .news-letter,
-.remember-me {
-  font-size: 1.2rem;
-  margin: 3em 0;
+.check-remember {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-letter {
+  margin-left: 1rem;
 }
 
 .remember-me {
-  position: absolute;
-  top: -2.3em;
+  font-size: 1.2rem;
+  margin-left: 1rem;
 }
 
 .terms {
   font-size: 1.5rem;
   padding: 2em;
-}
-
-.check-remember {
-  display: flex;
-  justify-content: space-between;
 }
 
 .form-link {
@@ -124,5 +123,9 @@ form {
 @media (max-width: 540px) {
   .section-img {
     display: none;
+  }
+
+  .news-letter {
+    margin-left: 2rem;
   }
 }
