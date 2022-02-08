@@ -1,0 +1,55 @@
+.navbar {
+  margin: auto;
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  min-height: 10vh;
+}
+
+.nav-title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--primary-color);
+}
+
+.nav-search {
+  display: flex;
+  padding: 0.5rem;
+  border: 0.1rem solid var(--lynx-gray);
+  border-radius: 30px;
+}
+
+.nav-search input {
+  border: none;
+  width: 100%;
+}
+
+.nav-search button {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}
+
+.nav-search:focus {
+  outline: none;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-item {
+  padding: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: var(--lynx-gray);
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}

@@ -1,0 +1,132 @@
+.main-section {
+  width: 100%;
+  min-height: 80vh;
+  height: 100%;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: radial-gradient(var(--secondary-color), var(--primary-color));
+}
+
+.section-form,
+.section-img {
+  flex: 1;
+}
+
+.section-form,
+.section-img {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+form {
+  max-width: 350px;
+  padding: 2rem;
+  width: 100%;
+  background-color: var(--secondary-color);
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  font-size: 4rem;
+  margin: 0.5em;
+  color: var(--lynx-gray);
+}
+
+.form-group {
+  padding: 0.5rem;
+  position: relative;
+}
+
+.form-group input {
+  padding: 1rem;
+  border-radius: 20px;
+  border: 0.1rem solid var(--lynx-gray);
+  width: 100%;
+  margin: 0.5em;
+}
+
+.form-group i {
+  position: absolute;
+  font-size: 2rem;
+  top: 2rem;
+  right: 1.2rem;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.form-group input:focus + i {
+  color: var(--primary-color);
+}
+
+.err-msg {
+  display: none;
+  font-size: 1.2rem;
+  color: var(--danger-color);
+}
+
+.form-group input[type="checkbox"] {
+  position: absolute;
+  padding-left: 2em;
+  width: auto;
+  left: -0.3em;
+  top: -0.1em;
+  z-index: 1;
+}
+
+.input-group input[type="checkbox"] {
+  position: relative;
+}
+
+.news-letter,
+.remember-me {
+  font-size: 1.2rem;
+  margin: 3em 0;
+}
+
+.remember-me {
+  position: absolute;
+  top: -2.3em;
+}
+
+.terms {
+  font-size: 1.5rem;
+  padding: 2em;
+}
+
+.check-remember {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-link {
+  text-decoration: underline;
+  font-weight: 500;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+.login-text,
+.register-text {
+  font-size: 1.5rem;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 540px) {
+  .section-img {
+    display: none;
+  }
+
+  .nav-search {
+    display: none;
+  }
+}
