@@ -73,32 +73,30 @@ form {
   color: var(--danger-color);
 }
 
-.input-group-newsletter,
-.input-group {
-  position: relative;
-  display: grid;
-  grid-template-columns: 10% 90%;
-}
-
-input[type="checkbox"] {
-  z-index: 1;
-  padding: 1rem;
-  margin: 0 3rem;
-}
-
-.news-letter,
 .check-remember {
   display: flex;
   justify-content: space-between;
 }
 
-.news-letter {
-  margin-left: 1rem;
+.checkbox-group,
+.checkbox-group-signup {
+  display: flex;
+  align-items: center;
 }
 
-.remember-me {
+.checkbox-group-signup {
+  width: 30rem;
   font-size: 1.2rem;
-  margin-left: 1rem;
+}
+
+.checkbox-group input,
+.checkbox-group-signup input {
+  width: fit-content;
+  z-index: 1;
+}
+
+.checkbox-group label {
+  font-size: 1.5rem;
 }
 
 .terms {
@@ -123,9 +121,5 @@ input[type="checkbox"] {
 @media (max-width: 540px) {
   .section-img {
     display: none;
-  }
-
-  .news-letter {
-    margin-left: 2rem;
   }
 }
