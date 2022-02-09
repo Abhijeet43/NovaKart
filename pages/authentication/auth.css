@@ -1,0 +1,126 @@
+.main-section {
+  width: 100%;
+  min-height: 80vh;
+  height: 100%;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: radial-gradient(var(--secondary-color), var(--primary-color));
+}
+
+.section-form,
+.section-img {
+  flex: 1;
+}
+
+.section-form,
+.section-img {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+form {
+  max-width: 350px;
+  padding: 2rem;
+  width: 100%;
+  border-radius: 0.3rem;
+  background-color: var(--secondary-color);
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  font-size: 4rem;
+  margin: 0.5em;
+  color: var(--lynx-gray);
+}
+
+.form-group {
+  padding: 0.5rem;
+  position: relative;
+}
+
+.form-group input {
+  padding: 1rem;
+  border-radius: 20px;
+  border: 0.1rem solid var(--lynx-gray);
+  width: 100%;
+  margin: 0.5em;
+}
+
+.form-group i {
+  position: absolute;
+  font-size: 2rem;
+  top: 2rem;
+  right: 1.2rem;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.form-group input:focus + i {
+  color: var(--primary-color);
+}
+
+.err-msg {
+  display: none;
+  font-size: 1.2rem;
+  color: var(--danger-color);
+}
+
+.check-remember {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox-group,
+.checkbox-group-signup {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group-signup {
+  width: 30rem;
+  font-size: 1.2rem;
+}
+
+.checkbox-group input,
+.checkbox-group-signup input {
+  width: fit-content;
+  z-index: 1;
+}
+
+.checkbox-group label {
+  font-size: 1.5rem;
+}
+
+.terms {
+  font-size: 1.5rem;
+  padding: 2em;
+}
+
+.form-link {
+  text-decoration: underline;
+  font-weight: 500;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+.login-text,
+.register-text {
+  font-size: 1.5rem;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 540px) {
+  .section-img {
+    display: none;
+  }
+}
