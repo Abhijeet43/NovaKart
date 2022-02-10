@@ -8,12 +8,17 @@
 /* PRODUCTS SECTION */
 
 .product-details-section {
+  margin-top: 2rem;
   display: flex;
   align-items: center;
+  background-color: var(--lynx-purple-color);
 }
 
 .product-details-section > * {
   flex: 1;
+}
+
+.product-details {
   padding: 2rem;
 }
 
