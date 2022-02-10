@@ -52,6 +52,10 @@
   width: 20%;
 }
 
+.horizontal-card-img img {
+  height: 100%;
+}
+
 .horizontal-card-content {
   padding: 2rem;
   width: 100%;
