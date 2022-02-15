@@ -18,7 +18,7 @@
 .nav-search {
   display: flex;
   padding: 0.5rem;
-  border: 0.1rem solid var(--lynx-gray);
+  border: 0.1rem solid var(--lynx-gray-color);
   border-radius: 30px;
 }
 
@@ -47,7 +47,7 @@
 .nav-link {
   text-decoration: none;
   font-size: 1.8rem;
-  color: var(--lynx-gray);
+  color: var(--lynx-gray-color);
 }
 
 .nav-link:hover {

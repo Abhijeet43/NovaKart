@@ -8,11 +8,11 @@
 /* CART */
 .cart-title {
   position: relative;
-  font-size: 2rem;
-  color: var(--lynx-gray);
+  font-size: var(--font-size-4);
+  color: var(--lynx-gray-color);
   text-align: center;
   margin: auto;
-  font-weight: 700;
+  font-weight: var(--font-weight-4);
   line-height: 5.5rem;
   width: fit-content;
 }
@@ -30,7 +30,7 @@
 }
 
 .cart-total-items {
-  font-size: 1.5rem;
+  font-size: var(--font-size-6);
 }
 
 .cart-container {
@@ -73,15 +73,15 @@
 }
 
 .horizontal-card-title {
-  font-size: 3rem;
+  font-size: var(--font-size-2);
 }
 
 .size {
-  font-size: 1.5rem;
+  font-size: var(--font-size-6);
 }
 
 .quantity-label {
-  font-size: 1.5rem;
+  font-size: var(--font-size-6);
   margin-right: 0.5em;
   cursor: pointer;
 }
@@ -92,19 +92,19 @@
 }
 
 .card-price {
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: var(--font-size-4);
+  font-weight: var(--font-weight-3);
 }
 
 .price-before {
-  font-size: 1.5rem;
+  font-size: var(--font-size-6);
   text-decoration: line-through;
   opacity: 0.7;
   margin-right: 0.5rem;
 }
 
 .price-discount {
-  font-size: 1rem;
+  font-size: var(--font-size-8);
   color: var(--danger-color);
 }
 
@@ -113,9 +113,9 @@
 }
 
 .star {
-  font-size: 1.5rem;
+  font-size: var(--font-size-6);
   margin-right: 0.2rem;
-  color: var(--lynx-gray);
+  color: var(--lynx-gray-color);
 }
 
 .star:last-child {
@@ -134,7 +134,7 @@
 }
 
 .cart-btn {
-  font-size: 1.5rem;
+  font-size: var(--font-size-6);
   max-width: 15rem;
   width: 100%;
   margin: 0.5em;
@@ -172,9 +172,9 @@
 }
 
 .price-heading {
-  font-size: 2.5rem;
+  font-size: var(--font-size-3);
   line-height: 5rem;
-  border-bottom: 0.1rem solid var(--lynx-gray);
+  border-bottom: 0.1rem solid var(--lynx-gray-color);
 }
 
 .price-details {
@@ -188,8 +188,8 @@
 
 .price-item {
   display: block;
-  font-size: 1.8rem;
-  font-weight: 300;
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-5);
   padding: 1rem 0.5rem;
 }
 
@@ -199,11 +199,11 @@
 }
 
 .price-item.coupon {
-  border-bottom: 0.1rem solid var(--lynx-gray);
+  border-bottom: 0.1rem solid var(--lynx-gray-color);
 }
 
 .price-item.total {
-  font-weight: 700;
+  font-weight: var(--font-weight-4);
 }
 
 /* ORDER BUTTON */
@@ -211,7 +211,7 @@
   background-color: var(--primary-color);
   color: var(--secondary-color);
   max-width: 100%;
-  font-size: 1.5rem;
+  font-size: var(--font-size-6);
   padding: 0.5em;
 }
 

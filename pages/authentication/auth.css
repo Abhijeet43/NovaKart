@@ -34,9 +34,9 @@ form {
 }
 
 .form-title {
-  font-size: 4rem;
+  font-size: var(--font-size-1);
   margin: 0.5em;
-  color: var(--lynx-gray);
+  color: var(--lynx-gray-color);
 }
 
 .form-group {
@@ -47,14 +47,14 @@ form {
 .form-group input {
   padding: 1rem;
   border-radius: 20px;
-  border: 0.1rem solid var(--lynx-gray);
+  border: 0.1rem solid var(--lynx-gray-color);
   width: 100%;
   margin: 0.5em;
 }
 
 .form-group i {
   position: absolute;
-  font-size: 2rem;
+  font-size: var(--font-size-4);
   top: 2rem;
   right: 1.2rem;
 }
@@ -70,7 +70,7 @@ form {
 
 .err-msg {
   display: none;
-  font-size: 1.2rem;
+  font-size: var(--font-size-7);
   color: var(--danger-color);
 }
 
@@ -87,7 +87,7 @@ form {
 
 .checkbox-group-signup {
   width: 30rem;
-  font-size: 1.2rem;
+  font-size: var(--font-size-7);
 }
 
 .checkbox-group input,
@@ -97,24 +97,24 @@ form {
 }
 
 .checkbox-group label {
-  font-size: 1.5rem;
+  font-size: var(--font-size-6);
 }
 
 .terms {
-  font-size: 1.5rem;
+  font-size: var(--font-size-6);
   padding: 2em;
 }
 
 .form-link {
   text-decoration: underline;
-  font-weight: 500;
+  font-weight: var(--font-weight-3);
   color: var(--primary-color);
-  font-size: 1.5rem;
+  font-size: var(--font-size-6);
 }
 
 .login-text,
 .register-text {
-  font-size: 1.5rem;
+  font-size: var(--font-size-6);
 }
 
 /* MEDIA QUERIES */
