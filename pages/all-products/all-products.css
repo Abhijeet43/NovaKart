@@ -20,11 +20,11 @@
 
 .aside-title,
 .aside-clear {
-  font-size: 2rem;
+  font-size: var(--font-size-4);
 }
 
 .aside-title {
-  color: var(--lynx-gray);
+  color: var(--lynx-gray-color);
 }
 
 .aside-clear {
@@ -41,8 +41,8 @@
 }
 
 .filter-title {
-  font-size: 1.8rem;
-  color: var(--lynx-gray);
+  font-size: var(--font-size-5);
+  color: var(--lynx-gray-color);
 }
 
 .filter-title.price {
@@ -51,7 +51,7 @@
 
 .filter-type {
   padding: 1rem 0;
-  font-size: 1.5rem;
+  font-size: var(--font-size-6);
   display: flex;
   align-items: center;
 }
@@ -73,10 +73,10 @@
 
 .section-title {
   position: relative;
-  font-size: 2rem;
-  color: var(--lynx-gray);
+  font-size: var(--font-size-4);
+  color: var(--lynx-gray-color);
   text-align: center;
-  font-weight: 700;
+  font-weight: var(--font-weight-4);
   line-height: 5.5rem;
   margin: 0 auto 5rem;
   width: fit-content;
@@ -109,7 +109,7 @@
 .overlay-link {
   position: relative;
   color: var(--secondary-color);
-  font-size: 2rem;
+  font-size: var(--font-size-4);
   z-index: 1;
 }
 
@@ -154,7 +154,7 @@
   position: absolute;
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  font-size: 1.2rem;
+  font-size: var(--font-size-7);
   text-align: left;
   padding: 0.3rem 1rem;
   top: 1.5rem;
@@ -200,23 +200,23 @@ svg.wishlist {
 }
 
 .card-title {
-  font-size: 1.5rem;
+  font-size: var(--font-size-6);
 }
 
 .card-price {
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: var(--font-size-4);
+  font-weight: var(--font-weight-3);
 }
 
 .price-before {
-  font-size: 1.5rem;
+  font-size: var(--font-size-6);
   text-decoration: line-through;
   opacity: 0.7;
   margin-right: 0.5rem;
 }
 
 .price-discount {
-  font-size: 1rem;
+  font-size: var(--font-size-8);
   color: var(--danger-color);
 }
 
@@ -225,9 +225,9 @@ svg.wishlist {
 }
 
 .star {
-  font-size: 1.5rem;
+  font-size: var(--font-size-6);
   margin-right: 0.2rem;
-  color: var(--lynx-gray);
+  color: var(--lynx-gray-color);
 }
 
 .star:last-child {
@@ -239,7 +239,7 @@ svg.wishlist {
 }
 
 .star.star-empty {
-  color: var(--lynx-gray);
+  color: var(--lynx-gray-color);
 }
 
 .card-footer button {
@@ -270,7 +270,7 @@ svg.wishlist {
   height: 3.5rem;
   width: 3.5rem;
   transform: translateX(-30%) scale(1);
-  font-weight: 1.5rem;
+  font-size: var(--font-size-6);
   top: -3rem;
   line-height: 4rem;
   z-index: 2;
@@ -304,9 +304,9 @@ svg.wishlist {
 }
 .field .value {
   position: absolute;
-  font-size: 1.2rem;
+  font-size: var(--font-size-7);
   color: var(--primary-color);
-  font-weight: 500;
+  font-weight: var(--font-weight-2);
 }
 .field .value.left {
   left: -3rem;
@@ -318,7 +318,7 @@ svg.wishlist {
   -webkit-appearance: none;
   width: 100%;
   height: 0.3rem;
-  background: var(--lynx-gray);
+  background: var(--lynx-gray-color);
   border-radius: 0.25rem;
   outline: none;
   border: none;
@@ -376,7 +376,7 @@ svg.wishlist {
   }
 
   .card-badge {
-    font-size: 1.8rem;
+    font-size: var(--font-size-5);
     top: 2.5rem;
   }
 
