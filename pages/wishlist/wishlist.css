@@ -41,7 +41,7 @@
 }
 
 .card {
-  max-width: 250px;
+  max-width: 25rem;
   margin-bottom: 2rem;
   position: relative;
   background-color: var(--secondary-color);
