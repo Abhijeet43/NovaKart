@@ -117,10 +117,54 @@ form {
   font-size: var(--font-size-6);
 }
 
+/* LOGOUT */
+
+.logout-section {
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-logout-icon {
+  color: var(--success-color);
+  font-size: var(--font-size-2);
+}
+
+.card {
+  text-align: center;
+  background-color: var(--secondary-color);
+  max-width: 80rem;
+  width: 100%;
+  height: max-content;
+  margin: 1rem;
+  border-radius: 0.3rem;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 5rem;
+}
+
+.card-body > * {
+  margin: 1rem;
+}
+
+.card-text {
+  font-size: var(--font-size-1);
+}
+
+.login-again {
+  display: inline-block;
+  font-size: var(--font-size-4);
+}
+
+.login-again:hover {
+  text-decoration: underline;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 540px) {
-  .section-img {
-    display: none;
+  .card-text {
+    font-size: var(--font-size-2);
   }
 }
