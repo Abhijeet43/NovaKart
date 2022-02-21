@@ -65,6 +65,8 @@ Following screens are used to build NovaKart.
 
 - [Cart Management](https://novakart.netlify.app/pages/cart/cart.html)
 
+- [Logout](https://novakart.netlify.app/pages/authentication/logout.html)
+
 To look at the Live Pages of each screen visit [NovaKart](https://novakart.netlify.app) or click on above links.
 
 ---
