@@ -7,7 +7,7 @@ inputSlider.addEventListener("input", () => {
   let value = inputSlider.value;
   console.log(value);
   slideValue.textContent = value;
-  slideValue.style.left = value / 22 + "%";
+  slideValue.style.left = value / 21 + "%";
   slideValue.classList.add("show");
 });
 

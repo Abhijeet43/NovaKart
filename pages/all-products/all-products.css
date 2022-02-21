@@ -285,7 +285,7 @@ svg.wishlist {
   transition: transform 0.3s ease-in-out;
 }
 .slider-points.show {
-  transform: translateX(-30%) scale(1);
+  transform: translateX(-50%) scale(1);
 }
 .slider-points:after {
   position: absolute;
