@@ -19,9 +19,9 @@
 }
 
 .hero-content {
-  font-size: var(--font-size-6);
+  font-size: var(--font-size-5);
   font-weight: var(--font-weight-2);
-  line-height: 2rem;
+  line-height: var(--line-height-2);
   color: var(--lynx-gray-color);
 }
 
@@ -237,6 +237,21 @@
 @media (max-width: 540px) {
   .hero-img {
     display: none;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .hero-content {
+    font-size: var(--font-size-4);
+    line-height: var(--line-height-1);
+    margin-bottom: 1rem;
   }
 
   .latest-products {

@@ -8,6 +8,10 @@
   align-items: center;
 }
 
+.footer-auth {
+  justify-content: space-around;
+}
+
 .footer-text {
   font-size: 2rem;
   padding: 1em;
@@ -16,6 +20,10 @@
 
 .footer-nav {
   padding: 1rem;
+}
+
+.footer-auth .footer-nav {
+  display: flex;
 }
 
 .footer-item {
@@ -34,6 +42,10 @@
 /* MEDIA QUERIES */
 @media (max-width: 540px) {
   .footer-text {
-    font-size: 1.5rem;
+    font-size: var(--font-size-6);
+  }
+
+  .footer-nav {
+    padding: 2rem;
   }
 }
