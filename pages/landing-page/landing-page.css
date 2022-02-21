@@ -19,9 +19,9 @@
 }
 
 .hero-content {
-  font-size: var(--font-size-6);
+  font-size: var(--font-size-5);
   font-weight: var(--font-weight-2);
-  line-height: 2rem;
+  line-height: var(--line-height-2);
   color: var(--lynx-gray-color);
 }
 
