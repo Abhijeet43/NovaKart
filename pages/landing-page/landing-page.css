@@ -239,6 +239,21 @@
     display: none;
   }
 
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .hero-content {
+    font-size: var(--font-size-4);
+    line-height: var(--line-height-1);
+    margin-bottom: 1rem;
+  }
+
   .latest-products {
     margin-bottom: 0;
   }
