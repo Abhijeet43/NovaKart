@@ -45,6 +45,7 @@
 }
 
 .nav-link {
+  position: relative;
   text-decoration: none;
   font-size: 1.8rem;
   color: var(--lynx-gray-color);
@@ -58,6 +59,20 @@
   margin: 0;
 }
 
+/* BADGES */
+
+.numeric-badge {
+  position: absolute;
+  color: var(--secondary-color);
+  font-size: var(--font-size-8);
+  padding: 0.2em;
+  border-radius: 50%;
+  width: max-content;
+  top: -0.8em;
+  left: 1em;
+}
+
+/* MEDIA QUERIES */
 @media (max-width: 540px) {
   html {
     font-size: 55%;

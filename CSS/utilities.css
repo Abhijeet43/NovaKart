@@ -21,3 +21,8 @@
 .btn-primary {
   background: var(--primary-color);
 }
+
+/* backgrounds */
+.danger-bg {
+  background-color: var(--danger-color);
+}
