@@ -41,6 +41,7 @@
 .filter-container {
   padding: 0 2rem;
   margin-bottom: 1.5rem;
+  position: relative;
 }
 
 .filter-title {
@@ -268,13 +269,15 @@ svg.wishlist {
   width: 100%;
 }
 .slider-points {
+  width: 100%;
   position: absolute;
   text-align: center;
   height: 3.5rem;
   width: 3.5rem;
-  transform: translateX(-30%) scale(1);
+  transform: translateX(-30%) scale(0);
   font-size: var(--font-size-6);
   top: -3rem;
+  left: 0;
   line-height: 4rem;
   z-index: 2;
   color: var(--secondary-color);
@@ -282,7 +285,7 @@ svg.wishlist {
   transition: transform 0.3s ease-in-out;
 }
 .slider-points.show {
-  transform: translateX(-70%) scale(1);
+  transform: translateX(-30%) scale(1);
 }
 .slider-points:after {
   position: absolute;
