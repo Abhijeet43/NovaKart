@@ -49,7 +49,7 @@
 
 ## Pages
 
-Following screens are used to build Velfit Store.
+Following screens are used to build NovaKart.
 
 - [Homepage](https://novakart.netlify.app/pages/landing-page/landing-page.html)
 
